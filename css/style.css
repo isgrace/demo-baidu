@@ -418,6 +418,8 @@ textarea {
   font: inherit; /* 2 */
 }
 
+/* ---页面样式开始--- */
+
 body {
   min-width: 810px;
   height: 100%;
@@ -450,7 +452,7 @@ p { margin: 0; }
 
 .clearfix:after { clear: both; }
 
-/* ---页头导航--- */
+/* ---主导航--- */
 
 .nav-global {
   position: relative;
@@ -507,7 +509,7 @@ p { margin: 0; }
   display: block;
 }
 
-/* ---小三角形--- */
+/* ---小三角（不太懂）--- */
 
 .triangle {
   position: absolute;
@@ -617,7 +619,7 @@ p { margin: 0; }
 
 .sidebar-list a:hover { text-decoration: underline; }
 
-/* --- 侧栏icon--- */
+/* ---侧栏icon--- */
 
 .sidebar-list span {
   display: block;
@@ -625,7 +627,8 @@ p { margin: 0; }
   height: 36px;
   padding-bottom: 5px;
   margin: 0 auto;
-  background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_2e35e84b.png) no-repeat;
+  background-image: url(../img/icon-sidebar.png); 
+  background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
 }
@@ -647,12 +650,12 @@ p { margin: 0; }
   text-decoration: underline; 
 }
 
-/* ---下拉菜单hover效果--- */
+/* ---下拉菜单hover--- */
 
 .dropdown-menu { display: none; }
 .dropdown:hover .dropdown-menu { display: block; }
 
-/* ---页面主体logo--- */
+/* ---页面logo--- */
 
 .main {
   position: relative;
@@ -701,7 +704,7 @@ p { margin: 0; }
   right: 10px;
   width: 18px;
   height: 16px;
-  background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_679c15cc.png) no-repeat #fff;
+  background: url(../img/icon-camera.png) no-repeat #fff;
   cursor: pointer;
 }
 
@@ -796,7 +799,7 @@ p { margin: 0; }
   display: inline-block;
   width: 14px;
   height: 17px;
-  background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_0e814c16.png) no-repeat;
+  background: url(../img/icon-copyright.png) no-repeat;
   overflow: hidden;
 }
 
